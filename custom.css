@@ -1,0 +1,17 @@
+.box{
+  height:500px;
+  width:2000px;
+  background-color:green;
+  position:relative;
+  animation: slide 0.1s infinite
+}
+
+@keyframes slide {
+  0% {background-color: red; top: 0px}
+  20% {background-color: orange}
+  30% {background-color: yellow}
+  40% {background-color: green}
+  70% {background-color: aqua}
+  80% {background-color: purple}
+  90% {background-color: white}
+}
